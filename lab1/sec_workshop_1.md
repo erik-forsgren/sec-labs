@@ -158,4 +158,12 @@ https://attackdefense.com/challengedetails?cid=1025
 
 ---
 
+# Överkurs
+För er überh4xx0rs som blir klara på fem minuter med ovanstående har vi även plockat fram denna:
+https://notsosecure.com/vulnerable-docker-vm
+
+Här krävs dock lite mer förkunskaper samt en fungerande virtualbox-setup på din lokala maskin.
+Det finns två "lägen", easy mode och hard mode :-)
+
+
  
