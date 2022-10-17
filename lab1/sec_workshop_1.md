@@ -94,13 +94,16 @@ Dagens tema:
 ```
                                                   
 
-Närmare bestämt docker host attacker
-
-## Docker who?
+Närmare bestämt:
+### docker host attacker
 
 - Maskinen som kör dina docker containers daemonen som tar hand om dem
 
 - Ett vanligt förekommande problem, med t.ex felkonfigurerade docker sockets och management verktyg
+
+### docker registry attacker
+- Ett docker registry är som ett repository till vilket docker images laddas upp
+- Egen-hostade registries är en känd attack vector
 
 
 ## Mer docker
@@ -109,16 +112,17 @@ Närmare bestämt docker host attacker
 
 - För den som vill göra en liten refresher så hänvisar vi till an3lls eminenta intro till docker lab: https://github.com/an3ll/docker-introduction-lba
 
+- Det finns dessutom en labb för den som vill fräscha upp sina docker kunskaper
 ---
 
 # Säkerhetsworkshop 19/10-22
 
 ## Upplägg
-Vi kommer att använda onlineresursen attackdefense.com
+Vi kommer att använda onlineresursen attackdefense.com som har en hel del community-övningar (som är gratis...)
 
 Kräver tyvärr att ett konto skapas, men man kan med fördel använda en temporär mejl (exempelvis duckduckgo.com/email)
 
-Fokus för dagens lab kommer som sagt att vara olika typer av attacker mot docker hosten
+Fokus för dagens lab kommer som sagt att vara olika typer av attacker mot docker hosten och docker registry
 
 
 ## CTF
@@ -136,16 +140,21 @@ Jag och Björn kommer att gå runt och hjälpa till om det behövs, men vi är s
 
 ---
 
-#  Docker host attacks
+#  Docker host och docker registry attacker
 
 Nog pratat, happy hacking!
 
-[Docker host attacker](https://attackdefense.com/listingnoauth?labtype=container-security-container-host-security&subtype=container-security-container-host-security-host)
+## Docker basics:
+https://attackdefense.com/challengedetails?cid=1342
 
----
+## Misconfigured docker socket
+https://attackdefense.com/challengedetails?cid=1194
 
-# Om man blir klar supersnabbt: Container breakout
-[Container breakout](https://attackdefense.com/listingnoauth?labtype=container-security-container-host-security&subtype=container-security-container-host-security-breakouts)
+## Mounted docker socket
+https://attackdefense.com/challengedetails?cid=1195
+
+## Insecure docker registry:
+https://attackdefense.com/challengedetails?cid=1025
 
 ---
 
